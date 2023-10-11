@@ -201,7 +201,7 @@ def plot_below_header():
     st.write('')
     st.write('')
 
-st.header('The Development of a Prediction Model Based on Deep Learning for prognosis prediction of Gastrointestinal stromal tumor: A SEER-Based Study')
+st.header('User-Friendly Interface of DeepSurv Model, Which Facilitates Survival Prediction for GIST patients.')
 if st.session_state['patients']:
     plot_below_header()
 st.subheader("Instructions:")
